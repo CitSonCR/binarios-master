@@ -31,6 +31,7 @@ public class Menu extends AppCompatActivity {
                 Intent intent = new Intent(v.getContext(),Registro.class);
                 intent.putExtra("MODE",1);
                 startActivityForResult(intent,0);
+
             }
         });
 
